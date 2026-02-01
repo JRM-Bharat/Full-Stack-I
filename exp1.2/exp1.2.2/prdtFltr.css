@@ -1,0 +1,73 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background: #f5f7fb;
+}
+
+h1{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.filter-bar{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+label{
+    font-size: 20px;
+}
+
+select{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 18px;
+}
+
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+.product-card{
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #dde3f0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.product-card h2{
+    margin: 0 0 10px;
+}
+
+.price{
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+
+.tag{
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    color: white;
+}
+
+.tag.electronics{
+    background: #3b6cff;
+}
+
+.tag.clothing{
+    background: #9fc3ff;
+    color: #000;
+}
+
+.tag.books{
+    background: #00faab;
+    color: #000;
+}

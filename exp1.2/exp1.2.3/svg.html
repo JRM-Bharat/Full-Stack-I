@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Experiment 1.2.3</title>
+        <link rel="stylesheet" href="svg.css">
+    </head>
+    <body>
+        <header><h1>SVG Drawing Tool</h1></header>
+        <div class="toolbar">
+            <input type="color" id="colorPicker" value="#2979ff">
+            <button id="undoBtn">Undo</button>
+        </div>
+        <svg id="canvas" viewbox="0 0 1000 1000"></svg>
+        <p id="count">Circles drawn: 0</p>
+        <script src="svg.js"></script>
+
+        <!--<script>
+            const svg = document.getElementById("canvas");
+            svg.addEventListener("mousedown", (e) => {
+                console.log("mousedown", e.clientX, e.clientY);
+            });
+            svg.addEventListener("mousemove", (e) => {
+                console.log("mousemove", e.clientX, e.clientY);
+            });
+            svg.addEventListener("mouseup", (e) => {
+                console.log("mouseup", e.clientX, e.clientY);
+            })
+        </script>-->
+    </body>
+</html>
